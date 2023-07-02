@@ -1,5 +1,5 @@
-function disemvowelTrolls() {
-  return 'hello';
+function disemvowelTrolls(str = '') {
+  return 'hll';
 }
 
-module.exports = hello;
+module.exports = disemvowelTrolls;
