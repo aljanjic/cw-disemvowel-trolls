@@ -21,6 +21,6 @@ Google: English has five vowels and they are: a, e, i, o, and u
 
 - ✅ '"hello" should return "hll"'
 - ✅ '"Watter" should retunr "Wttr"'
-- ⚠ '"klmn" should return "klmn"'
-- ⚠ '"" should retrun ""'
-- ⚠ '"aeiou" should return ""'
+- ✅ '"klmn" should return "klmn"'
+- ✅ '"" should retrun ""'
+- ✅ '"aEIou" should return ""'
