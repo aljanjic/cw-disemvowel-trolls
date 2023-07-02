@@ -8,4 +8,8 @@ describe('disemvowelTrolls', () => {
   it('"Watter" should retunr "Wttr"', () => {
     expect(disemvowelTrolls("Watter")).toBe('Wttr');
   });
+
+  it('"klmn" should return "klmn"', () => {
+    expect(disemvowelTrolls("klmn")).toBe('klmn');
+  });
 });
