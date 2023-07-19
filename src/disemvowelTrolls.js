@@ -10,14 +10,24 @@ function disemvowelTrolls(str = '') {
   }
   return result;
 
-  // return str.replace(/[aeiou]/gi, '')
+}
+
+module.exports = disemvowelTrolls;
+
+
+
+
+// export class Kata {
+//   static disemvowel(str: string): string {
+//     return str.replace(/[aeiou]/gi, "");
+//   }
+// }
+
+
+ // return str.replace(/[aeiou]/gi, '')
 
   // vowels = 'aeiou';
   // return str
   //   .split('')
   //   .filter( letter => !vowels.includes(letter.toLowerCase()))
   //   .join('')
-
-}
-
-module.exports = disemvowelTrolls;
